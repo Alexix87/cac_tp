@@ -77,8 +77,9 @@
         border-radius:5px;
         height: 2em
     }
-    .cards{
+    .txt_titulo{
         text-align:center;
+        padding-top: 2em;
     }
 
     table{
@@ -104,6 +105,27 @@
         width:100%;
     }
 
+    .formulario{
+        width: 50%;
+    }
+
+    .textarea{
+        display: inline;
+        width: 49%;
+    }
+
+    #textNombre{
+        margin-right: 1%;
+    }
+
+    .texto{
+        margin-top: 2%;
+    }
+    #btnEnviar{
+        width: 100%;
+        margin-top: 3%;
+        background-color: #30AC09;
+    }
   </style>
 
 </head>
@@ -148,7 +170,7 @@
         <button type="button" class="btn btn-success">Comprar tickets</button>
     </div>
 
-    <div class="cards">
+    <div class="txt_titulo">
         <small>CONOCE A LOS </small> <br>
         <h2>ORADORES</h2>
     </div>
@@ -203,6 +225,28 @@
             </td>
         </tr>
     </table>
+
+    <div class="txt_titulo">
+        <small>CONVIÉRTETE EN UN </small> <br>
+        <h2>ORADOR</h2>
+        <p>Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
+    </div>
+
+    <div class="container formulario"> 
+        <form> 
+        <input class= "form-control textarea" id="textNombre" placeholder="Nombre" type="text" name="nombre">
+        <input class= "form-control textarea" id="textApellido" placeholder="Apellido" type="text" name="apellido">
+        
+
+        <textarea class="form-control texto" placeholder="Sobre qué quieres hablar?" id="floatingTextarea"></textarea>
+        <div id="passwordHelpBlock" class="form-text">
+            Recuerda incluir un título para tu charla
+        </div>
+        <button id="btnEnviar" type="submit" class="btn btn-success">Enviar</button>
+
+        </form>
+    </div>
+
 
     </main>
 
