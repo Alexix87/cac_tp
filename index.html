@@ -10,51 +10,58 @@
     crossorigin="anonymous">
 
 <style>
+    
+    
+    
     .navbar{
         background-color: #333a40;
         padding-left: 10em;
         padding-right: 10em;
     }
-
-    #fondo{
-        height:33em;
-        background-image: url("img/ba1.jpg");
-        background-position: 0 -213px;
-        position:relative;
-        color: white;
-        z-index:1;
-        text-align:right;
-        font-size:x-large;
-        padding: 12em 10em;
-    }
-
-    #fondo:after {
-	    content:'';
-	    position: absolute;
-        top: 0;
-	    bottom: 0;
-	    left: 0;
-	    right: 0;
-	    background-color: rgba(0,0,0,0.6);
-        z-index:-1;
-    }
     
-    .miBoton{
-        color:white;
-        border-color:white;
-    }
-    .miBoton:hover{
+
+  
+       
+       
+       #fondo{
+           height:33em;
+           background-image: url("img/ba1.jpg");
+           background-position: 0 -213px;
+           position:relative;
+           color: white;
+           z-index:1;
+           text-align:right;
+           font-size:x-large;
+           padding: 12em 10em;
+        }
+        
+        #fondo:after {
+            content:'';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(0,0,0,0.6);
+            z-index:-1;
+        }
+        
+        .miBoton{
+            color:white;
+            border-color:white;
+        }
+        .miBoton:hover{
         color:white;
         background-color: black;
     }
-
+    
     .btn-cards{
         border: none;
         border-radius: 8px;
         font-weight: bold;
         font-size:small;
     }
-
+    
     .btn-javascript{
         background-color: #fec106;    
     }
@@ -81,18 +88,18 @@
         text-align:center;
         padding-top: 2em;
     }
-
+    
     table{
         margin-top: 3em;
     }
-
+    
     table td:first-child {
         width: 50%;
     }
     table td:nth-child(2) {
         width: 50%;
     }
-
+    
     #txt-tabla{
         background-color: #353a40;
         color:white;
@@ -100,7 +107,7 @@
         padding: 1em 0em 0em 1em;
         font-size:large;
     }
-  
+    
     #img-playa{
         width:100%;
     }
@@ -108,16 +115,16 @@
     .formulario{
         width: 50%;
     }
-
+    
     .textarea{
         display: inline;
         width: 49%;
     }
-
+    
     #textNombre{
         margin-right: 1%;
     }
-
+    
     .texto{
         margin-top: 2%;
     }
@@ -126,19 +133,47 @@
         margin-top: 3%;
         background-color: #30AC09;
     }
-  </style>
+    
+    .links{
+        padding-top: 1em;
+        margin-left: 3em;
+    }
+
+    footer{
+        background:linear-gradient(to right, #1c3643, #1d5271);
+        margin-top: 1em;
+        height: 5em;
+    }
+
+    .li-links{
+        display: inline;
+        margin-right: 6em;
+        font-size: small;
+  }
+
+    a{
+        color:white;
+        text-decoration:none;
+    }
+
+    a:hover{
+        color:white;
+
+    }
+
+    </style>
 
 </head>
 <body>
     <header>
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid ">
-            <img src="img/codoacodo.png" alt="Logo codo a codo" width="80">
-            <a class="navbar-brand" href="#">Conf Bs As</a>
-          
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid ">
+                <img src="img/codoacodo.png" alt="Logo codo a codo" width="80">
+                <a class="navbar-brand" href="#">Conf Bs As</a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
           
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
@@ -246,13 +281,34 @@
 
         </form>
     </div>
-
-
     </main>
-
     <footer>
-
-    </footer>
+        <div class="container">
+            <ul class="links">
+              <li class="li-links">
+                <a href="#">Preguntas frecuentes</a>
+              </li>
+              <li class="li-links">
+                <a href="#">Contáctanos</a>
+              </li>
+              <li class="li-links">
+                <a href="#">Prensa</a>
+              </li>
+              <li class="li-links">
+                <a href="#">Conferencias</a>
+              </li>
+              <li class="li-links">
+                <a href="#">Términos y condiciones</a>
+              </li>
+              <li class="li-links">
+                <a href="#">Privacidad</a>
+              </li>
+              <li class="li-links">
+                <a href="#">Estudiantes</a>
+              </li>
+            </ul>
+        </div>
+  </footer>
 </body>
 </html>
 
