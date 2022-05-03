@@ -1,0 +1,147 @@
+.navbar{
+    background-color: #333a40;
+    padding-left: 10em;
+    padding-right: 10em;
+}
+
+
+
+   
+   
+   #fondo{
+       height:33em;
+       background-image: url("../img/ba1.jpg");
+       background-position: 0 -213px;
+       position:relative;
+       color: white;
+       z-index:1;
+       text-align:right;
+       font-size:x-large;
+       padding: 12em 10em;
+    }
+    
+    #fondo:after {
+        content:'';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0,0,0,0.6);
+        z-index:-1;
+    }
+    
+    .miBoton{
+        color:white;
+        border-color:white;
+    }
+    .miBoton:hover{
+    color:white;
+    background-color: black;
+}
+
+.btn-cards{
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size:small;
+}
+
+.btn-javascript{
+    background-color: #fec106;    
+}
+.btn-react{
+    background-color:#16a2b7;
+    color:white;
+}
+.btn-negocios{
+    background-color: grey;
+    color:white;
+}
+.btn-startups{
+    background-color: red;
+    color:white;
+}
+.btn-conoceMas{
+    background-color: #353a40;
+    color:white;
+    border-color: white;
+    border-radius:5px;
+    height: 2em
+}
+.txt_titulo{
+    text-align:center;
+    padding-top: 2em;
+}
+
+table{
+    margin-top: 3em;
+}
+
+table td:first-child {
+    width: 50%;
+}
+table td:nth-child(2) {
+    width: 50%;
+}
+
+#txt-tabla{
+    background-color: #353a40;
+    color:white;
+    vertical-align: top;
+    padding: 1em 0em 0em 1em;
+    font-size:large;
+}
+
+#img-playa{
+    width:100%;
+}
+
+.formulario{
+    width: 50%;
+}
+
+.textarea{
+    display: inline;
+    width: 49%;
+}
+
+#textNombre{
+    margin-right: 1%;
+}
+
+.texto{
+    margin-top: 2%;
+}
+#btnEnviar{
+    width: 100%;
+    margin-top: 3%;
+    background-color: #30AC09;
+}
+
+.links{
+    padding-top: 1em;
+    margin-left: 3em;
+}
+
+footer{
+    background:linear-gradient(to right, #1c3643, #1d5271);
+    margin-top: 1em;
+    height: 5em;
+}
+
+.li-links{
+    display: inline;
+    margin-right: 6em;
+    font-size: small;
+}
+
+a{
+    color:white;
+    text-decoration:none;
+}
+
+a:hover{
+    color:white;
+
+}
